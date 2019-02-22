@@ -1,17 +1,22 @@
 import React from 'react';
+import './StarWars.css'
 
 const Character = props => {
     
     return (
-     <div className="charContainer">
+     <div className="card-container">   
+     <div className="char-card">
      {props.characters.map(character => {
         return(
-             <div>
+             <div className="char-info">
                 <h2>{character.name}</h2>
-                <p>{character.birth_year}</p>
+                <p>D.O.B: {character.birth_year}</p>
+                <p>Height: {character.height}</p>
+                <p>Home World: {character.homeworld}</p>
             </div>
      )
     })}
+    </div>
     </div>
     );
 }
