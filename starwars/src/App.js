@@ -9,7 +9,7 @@ const starwarsChars = [
     name: 'c-3P0',
     birth_year: '112BBY',
     height: '167',
-    homeworld: 'https://swapi.co/api/planets/1/'
+    gender: 'n/a'
   }
 
 ];
@@ -23,7 +23,7 @@ class App extends Component {
       name: '',
       birth_year: '',
       height: '',
-      homeworld: '',
+      gender: '',
     };
   }
 
