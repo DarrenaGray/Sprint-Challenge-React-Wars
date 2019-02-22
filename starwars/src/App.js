@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Character from './components/Character';
+
+const starwarsChars = [
+  
+  {
+    name: 'c-3P0',
+    birth_year: '112BBY',
+    height: '167',
+    homeworld: 'https://swapi.co/api/planets/1/'
+  }
+
+];
+
+
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: starwarsChars,
+      name: '',
+      birth_year: '',
+      height: '',
+      homeworld: '',
     };
   }
 
@@ -33,6 +51,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <Character characters={this.state.starwarsChars}/>
       </div>
     );
   }
