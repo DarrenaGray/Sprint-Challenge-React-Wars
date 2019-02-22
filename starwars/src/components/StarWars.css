@@ -14,8 +14,21 @@
 
 .char-info h2 {
     color: yellow;
+    text-align: center;
+    text-decoration: underline;
 }
 
-p {
+.attributes {
+    text-align: center;
     color: white;
+    margin: 50px;
+    /* padding: 0 10px; */
+}
+
+.list {
+    color: rgb(226, 129, 38);
+    font-weight: 700;
+    /* text-align: left; */
+    margin: 0 50px;
+
 }

@@ -10,9 +10,9 @@ const Character = props => {
         return(
              <div className="char-info">
                 <h2>{character.name}</h2>
-                <p>Birth Year: {character.birth_year}</p>
-                <p>Height: {character.height}</p>
-                <p>Gender: {character.gender}</p>
+                <p><span className="list">Birth Year:</span> <span className="attributes">{character.birth_year}</span></p>
+                <p><span className= "list">Height:</span> <span className="attributes">{character.height}</span></p>
+                <p><span className="list">Gender:</span> <span className="attributes">{character.gender}</span></p>
             </div>
      )
     })}
