@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+      React JS is a framework that allows us to visualize and develop UIs/applications with javascript in a responsive and more efficient way.  Problems that it solves is reducing the response/load time of a webpage when new data is being submitted by using a virtual DOM to render only the new information that is being presented (i.e. On Facebook: a new post being added, comments, likes, advertisement changes, etc).
+
 - [ ] What does it mean to _think_ in react?
+
+      To _think_ in react is to take a project idea and break it down in terms of components (building blocks) while using state and props as a way to store and pass information/data to different components in order to create an application.
 
 - [ ] Describe state.
 
+      State is like the "heart" within components of an application that stores data that needs to be passed from the parent component to child components or locally within child components.
+
 - [ ] Describe props.
+
+      Props are used to actually pass data that is stored in state to other components. Data that is set in state can be bound to props in order to be passed and be received.
 
 ## Project Set Up
 
